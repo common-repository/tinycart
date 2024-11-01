@@ -1,0 +1,95 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tinycart-item {
+    max-width: 220px;
+    margin: 0 15px 0 0;
+    float: left;
+    text-align: left ! important;
+}
+
+.tinycart-item-media {
+    width: 100%;
+    float: left;
+}
+
+    .tinycart-item-media img {
+        width: 90px;
+        padding: 5px;
+        border: 1px #eee solid;
+        float: left;
+    }
+
+.tinycart-item-name {
+    width: 100%;
+    margin: 5px 0 0 0;
+    float: left;
+}
+
+.tinycart-item-price {
+    width: 100%;
+    margin: 5px 0 0 0;
+    float: left;
+}
+
+.tinycart-item-insert {
+    width: 100%;
+    margin: 5px 0 0 0;
+    float: left;
+}
+
+    .tinycart-item-insert .tinycart-btn {
+        padding: 8px 15px;
+        border: 1px #ccc solid;
+        border-radius: 2px;
+        float: left;
+        color: #000;
+        text-decoration: none;
+        background: #f7f7f7;
+    }
+
+        .tinycart-item-insert .tinycart-btn:hover {
+            background: #eee;
+            border-color: #aaa;
+        }
+
+#tinycart-media-button {
+    padding-left: 29px ! important;
+    background: transparent url(../svg/icon.svg) 7px center / 16px 16px no-repeat;
+}
+
+#tincyart-settings-notice {
+    padding-left: 29px;
+    background: transparent url(../svg/icon.svg) 7px center / 16px 16px no-repeat;
+}
+
+.settings_page_tinycart #wpbody-content .wrap h1:first-child {
+    margin: 0 0 10px 0;
+    padding: 5px 0 5px 47px;
+    background: transparent url(../svg/icon.svg) 5px center / 32px 32px no-repeat;
+}
+
+.tinycart-admin-box {
+    box-sizing: border-box;
+    margin: .75rem 0 0 0;
+    padding: 1.5rem;
+    border: 1px #c8d5e1 solid;
+    border-radius: 2px;
+    background: #fff;
+}
+
+    .tinycart-admin-box h2,
+    .tinycart-admin-box h3 {
+        margin: 0 0 .5rem 0;
+    }
+
+    .tinycart-admin-box p:not(:last-child) {
+        margin: 0 0 .5rem 0;
+    }
+
+#swal2-content {
+    padding-top: 5px;
+}
